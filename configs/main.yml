@@ -1,0 +1,14 @@
+db_file: "bot.db"
+bot_url: "https://t.me/tmnsokol_tutorial_bot"
+
+messages:
+  responses:
+    start: "This is a first hellow message. To use the bot follow by the link:\n%s"
+    already_authorized: "You have already authorized. Please send link to put on Pocket!"
+    saved_succesfully: "The link succesfully saved."
+    unknown_command: "Unknown command."
+  errors:
+    default: "Internal error."
+    invalid_url: "URL is invalid."
+    unauthorized: "You are not authorized. Use /start command."
+    unable_to_save: "Unable to save the link. Please try send it later."
